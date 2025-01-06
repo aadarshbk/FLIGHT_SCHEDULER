@@ -19,3 +19,8 @@ Retrieve the IATA code for a city:
 javascript
 const { getIATACode } = require('./server/services/aviationService');
 getIATACode('New York').then(console.log);
+
+#add .env eg
+AVATIONSTACK_API_KEY=your_aviationstack_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
+
